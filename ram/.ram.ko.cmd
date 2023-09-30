@@ -1,0 +1,1 @@
+cmd_/home/elder/modules/ram/ram.ko := ld -r  -m elf_x86_64 -z noexecstack   --build-id=sha1  -T scripts/module.lds -o /home/elder/modules/ram/ram.ko /home/elder/modules/ram/ram.o /home/elder/modules/ram/ram.mod.o;  true

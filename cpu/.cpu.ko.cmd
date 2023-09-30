@@ -1,0 +1,1 @@
+cmd_/home/elder/modules/cpu/cpu.ko := ld -r  -m elf_x86_64 -z noexecstack   --build-id=sha1  -T scripts/module.lds -o /home/elder/modules/cpu/cpu.ko /home/elder/modules/cpu/cpu.o /home/elder/modules/cpu/cpu.mod.o;  true
